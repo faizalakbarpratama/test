@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.halojantung.MenuActivity"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="370dp"
+            android:layout_height="80dp"
+            android:scaleType="fitStart"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:src="@drawable/logohallo" />
+        <ImageButton
+            android:layout_width="150dp"
+            android:id="@+id/sidikjari"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:paddingBottom="50dp"
+            android:src="@drawable/sidikjari2"/>
+        <Button
+            android:id="@+id/jadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#757575"
+            android:text="@string/jadwalmakan"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:radius="3dip"
+            android:backgroundTint="#1565C0"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

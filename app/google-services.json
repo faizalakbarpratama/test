@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "967671088230",
+    "firebase_url": "https://halo-jantung.firebaseio.com",
+    "project_id": "halo-jantung",
+    "storage_bucket": "halo-jantung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967671088230:android:484a3aac347a5ff6",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.halojantung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967671088230-70kspudqkc16slkuogisfkbgsfh27scl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr67knj99Cxr2y45r4zWlf_0pWz3iJ96A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

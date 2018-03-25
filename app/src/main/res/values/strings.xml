@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Halo Jantung</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="nama">Nama :</string>
+    <string name="umur">Umur :</string>
+    <string name="tinggi_badan">Tinggi Badan :</string>
+    <string name="berat_badan">Berat Badan :</string>
+    <string name="jadwal_makan">Jadwal Makan</string>
+    <string name="loginuser">LOGIN</string>
+    <string name="email">Email :</string>
+    <string name="password">Password :</string>
+    <string name="submit">Submit</string>
+    <string name="Simpan">Simpan</string>
+    <string name="Masuk">Masuk</string>
+    <string name="jadwalmakan">Jadwal Makan</string>
+    <string name="keterangan">1. Menekan layar dengan jari.</string>
+    <string name="keterangan1">2. Menutupkan kmaera dengan jari tunjuk dan pastikan kamera belakang ponsel telah tertutup belaka.</string>
+    <string name="keterangan2">3. Mempertahanakan posisi tersebut sampai tes ini selesai.</string>
+    <string name="Sipan">Login</string>
+    <string name="Siman">Register</string>
+    <string name="Span">Jadwal Makan</string>
+    <string name="keterngan1">2. Menutup kamera belakang ponsel dengan jari telunjuk dan pastikan kamera belakang ponsel tertutup belaka.</string>
+    <string name="pemberitahuan">Pemberitahuan</string>
+    <string name="one_time_alarm">One Time Alarm</string>
+    <string name="notification">Notification</string>
+    <string name="toast">Toast</string>
+    <string name="repeating_alarm">REPEATING ALARM</string>
+</resources>

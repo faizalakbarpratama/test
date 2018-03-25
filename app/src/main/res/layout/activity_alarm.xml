@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/activity_alarm"
+    tools:context="org.d3ifcool.halojantung.AlarmActivity">
+    <RadioGroup
+        android:id="@+id/rdiGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdiNotification"
+            android:checked="true"
+            android:text="@string/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rdiToast"
+            android:text="@string/toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+        <Button
+            android:layout_below="@+id/rdiGroup"
+            android:id="@+id/btnOneTime"
+            android:text="@string/one_time_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_below="@+id/btnOneTime"
+            android:id="@+id/btnRepeating"
+            android:text="@string/repeating_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</RelativeLayout>
